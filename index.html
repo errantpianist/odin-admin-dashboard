@@ -4,38 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link  type="text/css" rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Admin Dashboard</title>
 </head>
 <body>
   <div class="container">
     <div class="sidebar">
-      <h2>Dashboard</h2>
+
+      <div class="sidebar-top-row">
+        <img src="./view-dashboard.svg" class="sidebar-logo">
+        <h2>Dashboard</h2>
+      </div>
       <ul class="sidebar-list">
-        <div class="sidebar-middle">
-          <li><span>Home</span></li>
-          <li><span>Profile</span></li>
-          <li><span>Messages</span></li>
-          <li><span>History</span></li>
-          <li><span>Tasks</span></li>
-          <li><span>Communities</span></li>
-        </div>
-        <div class="sidebar-bottom">
-          <li><span>Settings</span></li>
-          <li><span>Support</span></li>
-          <li><span>Privacy</span></li>
-        </div>
+        <li class="list-item"><img src="./home.svg" class="little-logo"><span>Home</span></li>
+        <li class="list-item"><img src="./card-account-details-outline.svg" class="little-logo"><span>Profile</span></li>
+        <li class="list-item"><img src="./message-reply.svg" class="little-logo"><span>Messages</span></li>
+        <li class="list-item"><img src="./clock-outline.svg" class="little-logo"><span>History</span></li>
+        <li class="list-item"><img src="./note-multiple-outline.svg" class="little-logo"><span>Tasks</span></li>
+        <li class="list-item"><img src="./account-group.svg" class="little-logo"><span>Communities</span></li>
+        <li class="list-item"></li>
+        <li class="list-item"><img src="./cog.svg" class="little-logo"><span>Settings</span></li>
+        <li class="list-item"><img src="./help-box.svg" class="little-logo"><span>Support</span></li>
+        <li class="list-item"><img src="./shield-check.svg" class="little-logo"><span>Privacy</span></li>
       </ul>
     </div>
     <div class="header">
       <div class="header-top-row-left">
+        <img id='search-icon' src="./magnify.svg">
         <input type="text">
       </div>
     <div class="header-top-row-right">
+      <img src="./bell-ring-outline.svg" class="little-logo-black">
+      <img src="./cat.svg" class="little-logo-black">
         <p>Morgan Oakley</p>
       </div>
       <div class="header-bottom-row-left">
+        <img src="./cat.svg" class="little-logo-black">
         <div class="welcome-text">
-          <p>Hi there</p>
+          <p>Hi there,</p>
           <h2>Morgan Oakley (@morgan)</h2>
         </div>
       </div>
@@ -48,49 +56,73 @@
     </div>
     <div class="main-content">
       <div class="project-container">
-        <h3>Projects</h3>
+        <h3>Your Projects</h3>
         <div class="project-cards">
           <div class="project-card">
             <div class="project-text">
               <h3>Super Cool Project</h3>
               <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
             </div>
-            <div class="project-favicons"></div>
+            <div class="project-favicons">
+              <img src="./star-plus-outline.svg" class="little-logo-black">
+              <img src="./eye-plus-outline.svg" class="little-logo-black">
+              <img src="./source-fork.svg" class="little-logo-black">
+            </div>
           </div>
           <div class="project-card">
             <div class="project-text">
               <h3>Less Cool Project</h3>
               <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pelientesque lacus.</p>
             </div>
-            <div class="project-favicons"></div>
+            <div class="project-favicons">
+              <img src="./star-plus-outline.svg" class="little-logo-black">
+              <img src="./eye-plus-outline.svg" class="little-logo-black">
+              <img src="./source-fork.svg" class="little-logo-black">
+            </div>
           </div>
           <div class="project-card">
             <div class="project-text">
               <h3>Impossible App</h3>
               <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
             </div>
-            <div class="project-favicons"></div>
+            <div class="project-favicons">
+              <img src="./star-plus-outline.svg" class="little-logo-black">
+              <img src="./eye-plus-outline.svg" class="little-logo-black">
+              <img src="./source-fork.svg" class="little-logo-black">
+            </div>
           </div>
           <div class="project-card">
             <div class="project-text">
               <h3>Easy Peasy App</h3>
               <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
             </div>
-            <div class="project-favicons"></div>
+            <div class="project-favicons">
+              <img src="./star-plus-outline.svg" class="little-logo-black">
+              <img src="./eye-plus-outline.svg" class="little-logo-black">
+              <img src="./source-fork.svg" class="little-logo-black">
+            </div>
           </div>
           <div class="project-card">
             <div class="project-text">
               <h3>Ad Blocker</h3>
               <p>Quisque eget rutrum nisi. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
             </div>
-            <div class="project-favicons"></div>
+            <div class="project-favicons">
+              <img src="./star-plus-outline.svg" class="little-logo-black">
+              <img src="./eye-plus-outline.svg" class="little-logo-black">
+              <img src="./source-fork.svg" class="little-logo-black">
+            </div>
           </div>
           <div class="project-card">
             <div class="project-text">
               <h3>Money Maker</h3>
               <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
             </div>
-            <div class="project-favicons"></div>
+            <div class="project-favicons">
+              <img src="./star-plus-outline.svg" class="little-logo-black">
+              <img src="./eye-plus-outline.svg" class="little-logo-black">
+              <img src="./source-fork.svg" class="little-logo-black">
+            </div>
           </div>
         </div>
       </div>
@@ -117,20 +149,32 @@
         <h3>Trending</h3>
         <div class="trending-cards">
           <div class="trending-card">
-            <p>@tegan</p>
-            <p class="grey">World Peace Builder</p>
+            <img src="./dog.svg" class="little-logo-black">
+            <div class="trending-card-text">
+              <p>@tegan</p>
+              <p class="grey">World Peace Builder</p>
+            </div>
           </div>
           <div class="trending-card">
-            <p>@morgan</p>
-            <p class="grey">Super Cool Projects</p>
+            <img src="./cat.svg" class="little-logo-black">
+            <div class="trending-card-text">
+              <p>@morgan</p>
+              <p class="grey">Super Cool Projects</p>
+            </div>
           </div>
           <div class="trending-card">
-            <p>@kendall</p>
-            <p class="grey">Life Changing App</p>
+            <img src="./kangaroo.svg" class="little-logo-black">
+            <div class="trending-card-text">
+              <p>@kendall</p>
+              <p class="grey">Life Changing App</p>
+            </div>
           </div>
           <div class="trending-card">
-            <p>@alex</p>
-            <p class="grey">No Traffic Maker</p>
+            <img src="./panda.svg" class="little-logo-black">
+            <div class="trending-card-text">
+              <p>@alex</p>
+              <p class="grey">No Traffic Maker</p>
+            </div>
           </div>
         </div>
       </div>
